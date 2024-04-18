@@ -811,6 +811,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pipePrefab: {fileID: 2984070133886549243, guid: 9d3b18f3f1ded4ef4a427f4e0be9efa4, type: 3}
+  birdScript: {fileID: 0}
 --- !u!4 &852167842
 Transform:
   m_ObjectHideFlags: 0
@@ -1637,12 +1638,20 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1702958991340402270, guid: 72d0e0802caf04e8a81110e59c02d744, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2.682952
+      objectReference: {fileID: 0}
+    - target: {fileID: 1702958991340402270, guid: 72d0e0802caf04e8a81110e59c02d744, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.6062474
+      objectReference: {fileID: 0}
+    - target: {fileID: 1702958991340402270, guid: 72d0e0802caf04e8a81110e59c02d744, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4.65
+      value: -4.8776
       objectReference: {fileID: 0}
     - target: {fileID: 1702958991340402270, guid: 72d0e0802caf04e8a81110e59c02d744, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.5
+      value: -1.2902
       objectReference: {fileID: 0}
     - target: {fileID: 1702958991340402270, guid: 72d0e0802caf04e8a81110e59c02d744, type: 3}
       propertyPath: m_LocalPosition.z

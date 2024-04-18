@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class MoveLeft : MonoBehaviour
 {
+    BirdController birdScript;
+
     public float speed = 1.5f;
     // Start is called before the first frame update
     void Start()
@@ -15,6 +17,18 @@ public class MoveLeft : MonoBehaviour
     void Update()
     {
         //Move pipes left
-        transform.Translate(Vector2.left * Time.deltaTime * speed);
+        
+      
+      if(birdScript.isAlive == true)
+        {
+            CancelInvoke(); 
+            transform.Translate(Vector2.left * Time.deltaTime * speed);
+        }
+    
+    }
+
+    void Awake ()
+    {
+         birdScript = GameObject.Find("Red_Bird_1").GetComponent<BirdController>();
     }
 }
